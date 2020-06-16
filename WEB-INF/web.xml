@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.2//EN"
+    "http://java.sun.com/j2ee/dtds/web-app_2_2.dtd">
+<web-app>
+<servlet>
+  <servlet-name>pageindex</servlet-name>
+  <servlet-class>Index</servlet-class>
+</servlet>
+<servlet>
+  <servlet-name>pageeditor</servlet-name>
+  <servlet-class>Editor</servlet-class>
+</servlet>
+<servlet>
+  <servlet-name>filechoose</servlet-name>
+  <servlet-class>FileChoose</servlet-class>
+</servlet>
+<servlet>
+  <servlet-name>final</servlet-name>
+  <servlet-class>Final</servlet-class>
+</servlet>
+<servlet>
+  <servlet-name>doall</servlet-name>
+  <servlet-class>doAll</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>pageindex</servlet-name>
+  <url-pattern>/ojc</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+  <servlet-name>pageeditor</servlet-name>
+  <url-pattern>/Editor</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+  <servlet-name>filechoose</servlet-name>
+  <url-pattern>/FileChoose</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+  <servlet-name>final</servlet-name>
+  <url-pattern>/Final</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+  <servlet-name>doall</servlet-name>
+  <url-pattern>/doAll</url-pattern>
+</servlet-mapping>
+</web-app>
+
+
